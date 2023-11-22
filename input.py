@@ -18,3 +18,4 @@ two = int(input("second digit"))
 total = one + two
 
 print(f"{one}+{two}={total}") # this does actual math
+
