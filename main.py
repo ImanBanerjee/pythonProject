@@ -14,8 +14,15 @@ name = "Iman banerjee"
 roll = 12
 standard = 10
 section = "N"
+net_worth = 1000.2323223294928492
 
 print("Hello my name is", name, "my education", roll, standard, section)
+
+print(f"Hello my name is {name} and my education details are:- Roll: {roll} Standard: {standard} Section: {section}")
+
+print(net_worth)
+print(f"Networth: {net_worth:.2f}") # :.2f stands for the number after a decimal
+
 
 print(roll + standard)
 
@@ -52,4 +59,31 @@ print (int((40 + 30 - 7) * 2 / 3))
 print ((float(40 + 30 - 7) * 2 / 3))
 
 
+# Strings are text surrounded by quotes
+# Both single (') or double (") or triple (""") quotes are used
+# examples: "dinosaurs", '2112', "I'm lovin' it!"
+
+#
+
+kanye_quote = "my greatest pain in live is that I will never be able to see myself perform live"
+
+print(kanye_quote)
+
+kanye_quote2 = """My greatest pain in life
+is that I will never be able
+to see myself perform live.""" # multi line
+
+art = "Technobale - \"technoblade never dies\"" # this one of the way to print quotes
+
+print(art)
+print(kanye_quote2)
+
+
+print(f"Hello my name is {name} and my education details are:- Roll: {roll} Standard: {standard} Section:{section}")
+
+print(net_worth)
+print(f"Networth: {net_worth:.2f}") # :.2f stands for the number after a decimal
+# f"text{Name} is better way to print value
+
+exit()
 
