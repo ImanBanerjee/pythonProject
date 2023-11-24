@@ -30,3 +30,11 @@ total = float(amount + tip) # total amount with tip
 print(f"Tip Amount is ${tip:.2f}\nTotal amount with tip is ${total:.2f}")
 
 
+answer = input("Would you like to proceed?\n")
+
+if answer == "yes":
+    print(f"please pay {total:.2f}")
+elif answer == "no":
+    print("can i know why?")
+else:
+    print("i dont unsderstand. please type yes/no")

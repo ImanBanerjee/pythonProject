@@ -1,8 +1,10 @@
-answer = input("Type the password: ") # takses user input
-password = ("2023") # variable
-if answer == password: # if input is correct then print
-    print("Hello world!")
+answer = input("Are you indian?\n")
 
-if answer != password: # if input is incorrect then run
-    print("Incorrect password!")
-
+if answer == "yes":
+    print("Okay!")
+elif answer == "no":
+    print("Ohh thats sad but okay!")
+elif answer == "maybe":
+    print("being sus huh?")
+else:
+    print("I dont understand answer - Yes/No/Maybe ")
