@@ -27,3 +27,9 @@ else:
 
 # If - elif - else works like this and or can be used like above example but not directly or a bug will occur
 
+#list
+# list is a collection of data
+# list is mutable (can be changed)
+the_count = [1, 2, 3, 4, 6]
+stocks = ["AAPL", "GOOG", "TSLA"]
+random_things = ["Puppies", 55, "Anthony Weiner", 1/2, ["Oh no", "A list inside a list"]]
